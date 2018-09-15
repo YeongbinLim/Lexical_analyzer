@@ -1,0 +1,7 @@
+﻿  2013271099.c
+c:\users\yeongbin\source\repos\2013271099_임영빈lexi\2013271099_임영빈lexi\2013271099.c(51): warning C4013: 'operator_library_num'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\yeongbin\source\repos\2013271099_임영빈lexi\2013271099_임영빈lexi\2013271099.c(62): warning C4013: 'meta_library_num'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\yeongbin\source\repos\2013271099_임영빈lexi\2013271099_임영빈lexi\2013271099.c(74): warning C4013: 'ROP_library_num'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\yeongbin\source\repos\2013271099_임영빈lexi\2013271099_임영빈lexi\2013271099.c(84): warning C4013: 'keyword_library_num'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\yeongbin\source\repos\2013271099_임영빈lexi\2013271099_임영빈lexi\2013271099.c(24): warning C4101: 'count' :참조되지 않은 지역 변수입니다.
+  2013271099_임영빈lexi.vcxproj -> C:\Users\YeongBin\source\repos\2013271099_임영빈lexi\Debug\2013271099_임영빈lexi.exe

@@ -1,0 +1,31 @@
+ #include <stdio.h>
+ #include <string.h>
+ #include <stdlib.h>
+
+ typedef struct type_node *type_ptr;
+ typedef struct type_node { char name[20];
+							float gpa;
+					  type_ptr link;     };
+ type_ptr search_prev_delete (type_ptr , char *, int *);
+ type_ptr search_ins_position(type_ptr , char *);
+ void main () {
+   int found;
+   type_ptr head, np, curr, prev;
+   char str[20];
+   float fnum;
+   FILE *fp ;
+   fp = fopen ("c: atnames1.txt", "r");
+	 // read each line and put it into a linked list. 
+   head = NULL;
+   while (!feof(fp)) {
+	  fscanf (fp, "%s %f", str, &fnum);
+	  np = (type_ptr) malloc(sizeof(type_node));
+	  strcpy (np->name, str);
+	  np->gpa = fnum;
+	  if (!head) {	 head = np; np->link = NULL; }
+		 else
+			{ prev = search_ins_position(head, str);
+			  if (!prev) { np->link = head; head = np; }
+				else { np->link = prev->link; prev->link = np; }
+		   }
+	} 
